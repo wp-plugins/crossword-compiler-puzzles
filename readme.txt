@@ -1,7 +1,7 @@
 === Crossword Compiler Puzzles ===
 Contributors: wordwebsoftware
 Donate link: http://www.wordwebsoftware.com/
-Tags: puzzle,crossword,sudoku,wordsearch
+Tags: puzzle,crossword,sudoku,wordsearch,crossword puzzles
 Requires at least: 3.6.0
 Tested up to: 3.8.0
 Stable tag: trunk
