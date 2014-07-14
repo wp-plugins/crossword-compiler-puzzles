@@ -3,7 +3,7 @@ Contributors: wordwebsoftware
 Donate link: http://www.wordwebsoftware.com/
 Tags: puzzle,crossword,sudoku,wordsearch,crossword puzzles
 Requires at least: 3.6.0
-Tested up to: 3.8.0
+Tested up to: 3.9.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -42,6 +42,9 @@ The latest applet file is used from crossword.info (updated automatically).
 2. The puzzle is displayed in your post
 
 == Changelog ==
+
+= 1.7 =
+* Updated for WP 3.9
 
 = 1.6 =
 * Stable version

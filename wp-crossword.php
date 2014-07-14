@@ -3,7 +3,7 @@
 Plugin Name: Crossword Compiler Puzzles
 Plugin URI: http://www.crossword-compiler.com/wordpress.html
 Description: Add interactive puzzles to your pages, taking content from existing crossword.info web page or uploading from files produced by Crossword Compiler.
-Version: 1.6
+Version: 1.7
 Author: WordWeb Software
 */
 

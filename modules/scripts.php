@@ -23,6 +23,7 @@ function ccpuz_add_script_fn()
             'jquery-ui-button',
             'jquery-ui-draggable',
             'jquery-ui-resizable',
+            'jquery-ui-dialog',
             'jquery-effects-core'
         ) , '1.0');
         }
