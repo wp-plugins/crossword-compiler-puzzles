@@ -2,6 +2,13 @@
 add_action('wp_print_scripts', 'ccpuz_add_script_fn', 1);
 
 function ccpuz_applet_js(){
+   	 $filename   ='crosswordCompiler.js';
+     $upload_dir = wp_upload_dir();
+     $path = $upload_dir['basedir'] .'/ccpuz/'.$filename ;
+	  if (file_exists($path)){
+        //if applet file has been uploaded by user
+        return  $upload_dir['baseurl'] .'/ccpuz/'.$filename ;
+      } else 									
    return 'http://crossword.info/html5/js/crosswordCompiler.js';
 }
 

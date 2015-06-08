@@ -75,6 +75,23 @@ function ccpuz_add_crossword(){
 }
 
 function ccpuz_applet(){
+   	 $filename   ='crosswordCompiler.js';
+     $upload_dir = wp_upload_dir();
+     $file = $upload_dir['basedir'] .'/ccpuz/'.$filename ;
+	 $uploadVersion = true; //file_exists($file);
+
+      if ($uploadVersion){
+ //upload with overwrite to latest if user has already uploaded the applet file to server
+            $response = wp_remote_get('http://crossword.info/html5/js/'.$filename);
+            $js= wp_remote_retrieve_body($response);
+            $path = $upload_dir['basedir'] .'/ccpuz' ;
+							
+		if(!empty($js) && wp_mkdir_p( $path) ) {
+		@file_put_contents( $file, $js );					
+		} else {
+ wp_die('Could not upload applet file', '<strong>Error</strong>: Could not upload applet file');
+       }
+ 	 }			
 }
 
 function doer_of_stuff() {

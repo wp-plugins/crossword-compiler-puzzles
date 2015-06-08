@@ -1,9 +1,9 @@
 === Crossword Compiler Puzzles ===
 Contributors: wordwebsoftware
 Donate link: http://www.wordwebsoftware.com/
-Tags: puzzle,crossword,sudoku,wordsearch,crossword puzzles
+Tags: puzzle,crossword,sudoku,wordsearch
 Requires at least: 3.6.0
-Tested up to: 4.0
+Tested up to: 4.2.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -43,8 +43,11 @@ The latest applet file is used from crossword.info (updated automatically).
 
 == Changelog ==
 
-= 1.7 =
-* Updated for WP 3.9
+= 1.8 =
+* Tested 4.2.2
 
 = 1.6 =
 * Stable version
+
+= 1.11 =
+* Fix for WordPress 3.9 dialog
